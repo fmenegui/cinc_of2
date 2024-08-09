@@ -1,0 +1,6 @@
+lightning_logs/
+predictions/
+*.png
+*.csv
+*.log
+# model/

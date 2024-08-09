@@ -1,0 +1,13 @@
+__pycache__/
+.vscode/
+data/
+doc.egg-info/
+experiments/
+evaluation-2024/
+lightning_logs/
+
+model/
+test_outputs/
+DATA.md
+TESTE_SUBMISSION.md
+

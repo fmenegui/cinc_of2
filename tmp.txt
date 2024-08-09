@@ -1,0 +1,364 @@
+Task: multilabel
+F1_score_avg: macro
+[INFO] START
+[INFO] START Prepare resize
+[INFO] END Prepare resize
+
+[INFO] START Prepare df
+[INFO] END Prepare df
+
+[INFO] Save DataFrame
+[INFO] END Save DataFrame
+
+[INFO] START Training fold 0
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:01<00:00,  0.65it/s]                                                                           [INFO] END Training fold
+ 0
+[INFO] Results (fold 0): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 0
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 0
+
+              Metric                Value
+0        Sensitivity             0.052632
+1        Specificity                  1.0
+2                PPV                  1.0
+3                NPV             0.052632
+4           Accuracy                  0.1
+5                AUC             0.894737
+6           F1 Score                  0.1
+7              Kappa             0.005525
+8   Optimal F1 Score                [0.5]
+9  Optimal Threshold  [0.568241536617279]
+[INFO] START Training fold 1
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 27.78it/s]                                                                           [INFO] END Training fold
+ 1
+[INFO] Results (fold 1): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 1
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 1
+
+              Metric                 Value
+0        Sensitivity              0.473684
+1        Specificity                   1.0
+2                PPV                   1.0
+3                NPV              0.090909
+4           Accuracy                   0.5
+5                AUC              0.842105
+6           F1 Score              0.166667
+7              Kappa              0.082569
+8   Optimal F1 Score                 [0.4]
+9  Optimal Threshold  [0.5362718105316162]
+[INFO] START Training fold 2
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 28.07it/s]                                                                           [INFO] END Training fold
+ 2
+[INFO] Results (fold 2): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 2
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 2
+
+              Metric                 Value
+0        Sensitivity              0.263158
+1        Specificity                   1.0
+2                PPV                   1.0
+3                NPV              0.066667
+4           Accuracy                   0.3
+5                AUC              0.684211
+6           F1 Score                 0.125
+7              Kappa              0.034483
+8   Optimal F1 Score                [0.25]
+9  Optimal Threshold  [0.5325695872306824]
+[INFO] START Training fold 3
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 27.84it/s]                                                                           [INFO] END Training fold
+ 3
+[INFO] Results (fold 3): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 3
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 3
+
+              Metric                 Value
+0        Sensitivity                   0.9
+1        Specificity                   NaN
+2                PPV                   1.0
+3                NPV                   0.0
+4           Accuracy                   0.9
+5                AUC                   NaN
+6           F1 Score                   0.0
+7              Kappa                   0.0
+8   Optimal F1 Score                 [0.0]
+9  Optimal Threshold  [0.4084566533565521]
+[INFO] START Training fold 4
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 26.04it/s]                                                                           [INFO] END Training fold
+ 4
+[INFO] Results (fold 4): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 4
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 4
+
+              Metric                 Value
+0        Sensitivity              0.947368
+1        Specificity                   NaN
+2                PPV                   1.0
+3                NPV                   0.0
+4           Accuracy              0.947368
+5                AUC                   NaN
+6           F1 Score                   0.0
+7              Kappa                   0.0
+8   Optimal F1 Score                 [0.0]
+9  Optimal Threshold  [0.3640918731689453]
+[INFO] START Training fold 5
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 29.26it/s]                                                                           [INFO] END Training fold
+ 5
+[INFO] Results (fold 5): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 5
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 5
+
+              Metric                 Value
+0        Sensitivity              0.631579
+1        Specificity                   NaN
+2                PPV                   1.0
+3                NPV                   0.0
+4           Accuracy              0.631579
+5                AUC                   NaN
+6           F1 Score                   0.0
+7              Kappa                   0.0
+8   Optimal F1 Score                 [0.0]
+9  Optimal Threshold  [0.4206221103668213]
+[INFO] START Training fold 6
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 29.63it/s]                                                                           [INFO] END Training fold
+ 6
+[INFO] Results (fold 6): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 6
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 6
+
+              Metric                 Value
+0        Sensitivity              0.210526
+1        Specificity                   NaN
+2                PPV                   1.0
+3                NPV                   0.0
+4           Accuracy              0.210526
+5                AUC                   NaN
+6           F1 Score                   0.0
+7              Kappa                   0.0
+8   Optimal F1 Score                 [0.0]
+9  Optimal Threshold  [0.4801186919212341]
+[INFO] START Training fold 7
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 29.13it/s]                                                                           [INFO] END Training fold
+ 7
+[INFO] Results (fold 7): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 7
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 7
+
+              Metric                 Value
+0        Sensitivity              0.894737
+1        Specificity                   NaN
+2                PPV                   1.0
+3                NPV                   0.0
+4           Accuracy              0.894737
+5                AUC                   NaN
+6           F1 Score                   0.0
+7              Kappa                   0.0
+8   Optimal F1 Score                 [0.0]
+9  Optimal Threshold  [0.4254099130630493]
+[INFO] START Training fold 8
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 29.62it/s]                                                                           [INFO] END Training fold
+ 8
+[INFO] Results (fold 8): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 8
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 8
+
+              Metric                 Value
+0        Sensitivity              0.631579
+1        Specificity                   NaN
+2                PPV                   1.0
+3                NPV                   0.0
+4           Accuracy              0.631579
+5                AUC                   NaN
+6           F1 Score                   0.0
+7              Kappa                   0.0
+8   Optimal F1 Score                 [0.0]
+9  Optimal Threshold  [0.4288641810417175]
+[INFO] START Training fold 9
+-----------------------------------
+model2
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 29.64it/s]                                                                           [INFO] END Training fold
+ 9
+[INFO] Results (fold 9): 
+ {}
+[INFO] START Saving model at model2/model/
+[INFO] END Saving model
+
+[INFO] START Predicting Val fold 9
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+labels:  [1, 0]
+[INFO] END Predicting Val fold 9
+
+              Metric                  Value
+0        Sensitivity               0.888889
+1        Specificity                    0.0
+2                PPV               0.941176
+3                NPV                    0.0
+4           Accuracy               0.842105
+5                AUC               0.444444
+6           F1 Score                    0.0
+7              Kappa              -0.075472
+8   Optimal F1 Score  [0.16666666666666669]
+9  Optimal Threshold    [0.447185069322586]
+[INFO] END
+
