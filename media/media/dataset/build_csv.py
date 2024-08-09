@@ -167,7 +167,7 @@ def build_csv(data_img_dir):
 
     df = pd.DataFrame(df_list)
     df_sorted = df.sort_values(by='header_name')
-    df_shuffled = df_sorted.sample(frac=1, random_state=seed).reset_index(drop=True)
+    df_shuffled = df_sorted.sample(frac=1, random_state=42).reset_index(drop=True)
     df = df_shuffled
     return df
 
